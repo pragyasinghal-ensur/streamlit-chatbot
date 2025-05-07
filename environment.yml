@@ -1,0 +1,16 @@
+name: streamlit-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - streamlit
+  - openai
+  - pypdf
+  - python-dotenv
+  - faiss-cpu
+  - pip
+  - pip:
+    - langchain_openai
+    - langchain_community
+    - rag
